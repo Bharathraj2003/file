@@ -1,0 +1,215 @@
+<h1>Job Application Form</h1>
+<form action="">
+    <fieldset>
+        <legend>
+            Personal Information
+        </legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="">
+                    First Name*
+                    </label>
+                </td>
+                <td>
+                    <input type="text" name="Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Last Name*
+                </td>
+                <td>
+                    <input type="text" name="S_name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <label for=""> Date Of Birth</label>
+                </td>
+                <td>
+                    <input type="date" name="DOB" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Gender"></label>
+                </td>
+                <td>
+                    <input type="radio" name="Gender" value="M" id="">Male
+                    <input type="radio" name="Gender" value="W" id="">Female
+                    <input type="radio" name="Gender" value="O" id="">Other
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Profile Picture</label>
+                </td>
+                <td>
+                    <input type="file" name="Pic" id="">
+                </td>
+            </tr>
+            
+        </table>
+    </fieldset>
+
+
+    <fieldset>
+        <table>
+            <legend>
+                Contact Information
+            </legend>
+            <tr>
+                <td>
+                    <label for="">Email*</label>
+                </td>
+                <td>
+                    <input type="email" required name="Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <label for="">  Phone number*</label>
+                </td>
+                <td>
+                    <input type="tel" name="Phone number" required >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Address</label>
+                </td>
+                <td>
+                    <textarea name="Address" id=""  ></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Country</label>
+                </td>
+                <td>
+                    <select name="country" id="">
+                        <option value="Ind">India</option>
+                        <option value="us">usa</option>
+                        <option value="ger">German</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Educational Background</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="">Highest Qualification</label>
+                </td>
+                <td>
+                    <select name="Qualification" id="">
+                        <option value="Graduate">Graduatr</option>
+                        <option value="12">12 th</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Specilization</label>
+                </td>
+                <td>
+                    <input type="text" name="Special" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Year of Graduation</label>
+                </td>
+                <td>
+                    <input type="number" name="Graduation year">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Job Preferences</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="">Preferred Role</label>
+                </td>
+                <td>
+                    <input type="text" name="Role" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Expected Salary</label>
+                </td>
+                <td>
+                    <input type="number" name="Salary" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Preferred location</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="location" id="">Banglore
+                    <input type="checkbox" name="location" id="">Delhi
+                    <input type="checkbox" name="location" id="">Pune
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <Label>Willing to Relocate</Label>
+                </td>
+                <td>
+                    <input type="checkbox" name="Relocate" id="">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Create Account</legend>
+        <table>
+           <tr>
+            <td>
+                <label for="">Password</label>
+            </td>
+            <td>
+                <input type="password" name="Password" id="">
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <label for=""> conform Password</label>
+            </td>
+            <td>
+                <input type="password" name="c_password" id="">
+            </td>
+           </tr>
+        </table>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Resume</legend>
+        <label for="">Uploade Resume(PDF only)* </label>
+        <input type="file" name="Resume" id="" required>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Agreement</legend>
+        <input type="checkbox" name="Agreement" id="">
+        <label for="">I agree with terms and condition</label><br>
+       <input type="submit">
+       <input type="reset" name="" id="">
+    </fieldset>
+
+</form>
